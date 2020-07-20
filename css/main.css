@@ -317,7 +317,6 @@ img {
   color: #000000;
 }
 
-/* Header */
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -336,6 +335,10 @@ img {
 
 .page-header__logo {
   margin-right: 85px;
+}
+
+.page-header__nav {
+  margin-right: auto;
 }
 
 .nav-list {
@@ -386,7 +389,6 @@ img {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-left: auto;
 }
 
 .header-contacts > li:not(:last-child) {
