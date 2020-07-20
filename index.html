@@ -10,40 +10,33 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
-    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <section>
-      <p class="title">Title</p>
-      <span class="text"
-        >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, cumque quis
-        laboriosam praesentium dicta deleniti aliquid reiciendis? Rem, ex.</span
-      >
-    </section>
-    <header>
-      <nav class="container nav-display-flex">
-        <a href="./index.html" class="logo-header-link">Web <span>Studio</span></a>
+    <header class="page-header">
+      <div class="page-header__wrapper container">
+        <a href="./index.html" class="logo page-header__logo logo-header-link">
+          Web
+          <span class="logo--black">Studio</span>
+        </a>
+        <nav class="page-header__nav">
+          <ul class="nav-list">
+            <li>
+              <a href="./index.html" class="active" aria-label="Гланая страница">Студия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" aria-label="Портфолио">Портфолио</a>
+            </li>
+            <li>
+              <a href="#" aria-label="Контакты">Контакты</a>
+            </li>
+          </ul>
+        </nav>
 
-        <ul class="nav-menu-list">
-          <li>
-            <a href="./index.html" class="active" aria-label="Гланая страница">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" aria-label="Портфолио">Портфолио</a>
-          </li>
-          <li>
-            <a href="#" aria-label="Контакты">Контакты</a>
-          </li>
-        </ul>
-
-        <ul class="nav-contacts-list">
+        <ul class="header-contacts nav-contacts-list">
           <li>
             <a href="mailto:info@devstudio.com" aria-label="Написать письмо нам"
-              ><span class="icon-nav-svg"
+              ><span class="header-contacts__icon"
                 ><svg width="16" height="16">
                   <use href="./images/sprite-min.svg#icon-email"></use></svg></span
               >info@devstudio.com</a
@@ -51,14 +44,14 @@
           </li>
           <li>
             <a href="tel:+380961111111" aria-label="Позвонить нам"
-              ><span class="icon-nav-svg"
+              ><span class="header-contacts__icon icon-nav-svg"
                 ><svg width="16" height="16">
                   <use href="./images/sprite-min.svg#icon-phone"></use></svg></span
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
 
     <main>

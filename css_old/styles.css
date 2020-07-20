@@ -316,7 +316,6 @@ a:visited.logo-header-link span {
 .social-icon-link:focus {
   fill: var(--white-index);
   background-color: var(--actual-color-text);
-  /* outline: none; */
 }
 /* Section Clients */
 .section-clients {
@@ -347,7 +346,6 @@ a:visited.logo-header-link span {
 }
 .client-link:hover,
 .client-link:focus {
-  /* outline: none; */
   fill: var(--actual-color-text);
   border-color: var(--actual-color-text);
 }

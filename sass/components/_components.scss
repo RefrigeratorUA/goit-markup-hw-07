@@ -1,13 +1,15 @@
-section {
-  width: 100%;
-  padding: 30px;
-  background-color: $mainColorText;
-  border: 2px solid $actualColorText;
-  & .title {
-    font-size: 20px;
-    color: $whiteIndex;
-  }
-  .text {
-    color: $actualColorText;
-  }
-}
+// .social-icon-link {
+//   @include centeredFlex(flex);
+//   width: 44px;
+//   height: 44px;
+//   border-radius: 50%;
+//   background-color: $whiteIndex;
+//   fill: $socialSvgColor;
+
+//   @include mixinTransition(background-color, fill);
+// }
+// .social-icon-link:hover,
+// .social-icon-link:focus {
+//   background-color: $actualColorText;
+//   fill: $whiteIndex;
+// }
