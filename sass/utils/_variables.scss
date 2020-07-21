@@ -2,8 +2,10 @@ $fontFamilyMain: 'Roboto', sans-serif;
 $fontFamilyLogo: 'Raleway', sans-serif;
 
 $fontSizeMain: 14px;
+$fontSizeFooterInput: 16px;
 $letterSpacingMain: 00.03em;
 $letterSpacing02: 00.02em;
+$letterSpacing06: 00.06em;
 
 $containerMaxWidth: 1200px;
 
@@ -14,7 +16,11 @@ $headsColorText: #212121;
 $whiteIndex: #ffffff;
 $borderBottomColorHeader: #ececec;
 $footerBgColor: #2f303a;
+$footerMainColor: rgba(255, 255, 255, 0.6);
+$footerSocialBg: rgba(255, 255, 255, 0.1);
+$footerInputBorderColor: rgba(255, 255, 255, 0.3);
 $socialSvgColor: #afb1b8;
+// $footerColorInput: rgba(255, 255, 255, 0.6)
 
 $timeTransition: 250ms;
 $cubeRubiks: cubic-bezier(0.4, 0, 0.2, 1);
