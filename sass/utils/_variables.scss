@@ -2,8 +2,10 @@ $fontFamilyMain: 'Roboto', sans-serif;
 $fontFamilyLogo: 'Raleway', sans-serif;
 
 $fontSizeMain: 14px;
-$fontSizeFooterInput: 16px;
+$fontSizeSecond: 16px;
+$fontSizeThird: 18px;
 $letterSpacingMain: 00.03em;
+$letterSpacing01: 00.01em;
 $letterSpacing02: 00.02em;
 $letterSpacing06: 00.06em;
 
@@ -20,7 +22,14 @@ $footerMainColor: rgba(255, 255, 255, 0.6);
 $footerSocialBg: rgba(255, 255, 255, 0.1);
 $footerInputBorderColor: rgba(255, 255, 255, 0.3);
 $socialSvgColor: #afb1b8;
-// $footerColorInput: rgba(255, 255, 255, 0.6)
+$bgSecond: #f5f4fa;
+$worksDescrBg: rgba(47, 48, 58, 0.8);
+$backdropBg: rgba(0, 0, 0, 0.2);
+$btnCloseBorderColor: rgba(0, 0, 0, 0.1);
+$modalInputBorderColor: rgba(33, 33, 33, 0.2);
+$modalSubmitHoverBg: #188ce8;
+$portfolioParagrBg: rgba(33, 150, 243, 0.9);
+$portfolioItemBorderColor: #eeeeee;
 
 $timeTransition: 250ms;
 $cubeRubiks: cubic-bezier(0.4, 0, 0.2, 1);
